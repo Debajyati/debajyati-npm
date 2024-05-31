@@ -1,0 +1,28 @@
+{
+  "name": "debajyati",
+  "version": "1.0.0",
+  "description": "A brief intro about me(Debajyati Dey)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "debajyati": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debajyati/debajyati-npm.git"
+  },
+  "keywords": [
+    "debajyati"
+  ],
+  "bugs": {
+    "url": "https://github.com/Debajyati/debajyati-npm/issues"
+  },
+  "author": "Debajyati Dey",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^7.1.1"
+  }
+}
