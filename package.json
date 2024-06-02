@@ -1,6 +1,6 @@
 {
   "name": "debajyati",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "A brief intro about me(Debajyati Dey)",
   "main": "index.js",
   "type": "module",
@@ -23,6 +23,7 @@
   "author": "Debajyati Dey",
   "license": "ISC",
   "dependencies": {
-    "boxen": "^7.1.1"
+    "boxen": "^7.1.1",
+    "ora": "^8.0.1"
   }
 }
