@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import boxen from "boxen";
+import { stopSpinner, spinner } from "./spinner.js"; 
 
 function myInfo() {
   const header = `
@@ -57,4 +58,17 @@ ${adios}
   console.log(boxedMessage);
 }
 
-myInfo();
+setTimeout(() => {
+  spinner.text = "please wait...";
+  spinner.color = "green";
+  spinner.spinner = "orangeBluePulse";
+}, 1000);
+
+spinner.start();
+
+setTimeout(() => {
+  stopSpinner(spinner);
+  myInfo();
+}, 3000);
+
+
